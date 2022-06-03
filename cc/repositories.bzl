@@ -26,6 +26,7 @@ def rules_cc_dependencies():
 # buildifier: disable=unnamed-macro
 def rules_cc_toolchains(*args):
     cc_configure(*args)
+    winsdk_configure(name = "local_config_winsdk")
 
 def _maybe(repo_rule, name, **kwargs):
     if not native.existing_rule(name):
