@@ -1,0 +1,30 @@
+1 VERSIONINFO
+FILEVERSION 1,3,2,0
+PRODUCTVERSION 1,3,2,0
+FILEOS 0x4
+FILETYPE 0x1
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904b0"
+	{
+		VALUE "CompanyName", "The Aria2c Authors"
+		VALUE "FileDescription", "aria2 is a utility for downloading files"
+		VALUE "FileVersion", "1.3.2.0"
+		VALUE "InternalName", "aria2c"
+		VALUE "LegalCopyright", "Copyright 2017 The Aria2 Authors. All rights reserved."
+		VALUE "ProductName", "Aria2 executable"
+		VALUE "OriginalFilename", "aria2c.exe"
+		VALUE "ProductVersion", "1.3.2.0"
+		VALUE "CompanyShortName", "The Aria2 Authors"
+		VALUE "ProductShortName", "Aria2 Installer"
+		VALUE "LastChange", "823bcc4ab0d2ca3b9f3da282f0e6bd7b342b7d94-refs/heads/master@{#823bcc4}"
+		VALUE "Official Build", "0"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04B0
+}
+}

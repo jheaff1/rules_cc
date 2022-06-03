@@ -40,7 +40,7 @@ Usage:
     )
 """
 
-WINDOWS_RESOURCE_COMPILER_TOOLCHAIN_TYPE = "@io_bazel//src/main/res:toolchain_type"
+WINDOWS_RESOURCE_COMPILER_TOOLCHAIN_TYPE = "@rules_cc//cc/private/toolchain:resource_compiler_toolchain_type"
 
 WindowsResourceCompilerInfo = provider(
     fields = ["rc_exe"],
