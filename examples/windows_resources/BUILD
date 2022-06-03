@@ -1,4 +1,4 @@
-load("@rules_cc//cc:defs.bzl", "windows_resources", "cc_library")
+load("@rules_cc//cc:defs.bzl", "windows_resources", "cc_binary")
 
 
 windows_resources(
