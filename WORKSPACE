@@ -59,6 +59,9 @@ load("//cc:repositories.bzl", "rules_cc_toolchains")
 
 rules_cc_toolchains()
 
+load("@local_config_winsdk//:toolchains.bzl", "register_local_rc_exe_toolchains")
+register_local_rc_exe_toolchains()
+
 local_repository(
     name = "test_repo",
     path = "examples/test_cc_shared_library2",
