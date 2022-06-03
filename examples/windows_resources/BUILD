@@ -28,5 +28,8 @@ windows_resources(
 cc_binary(
     name = "test",
     srcs = ["main.cc"],
-    deps = [":test_resources"],
+    deps = select({
+        "@platforms//os:windows": [":test_resources"],
+        "//conditions:default": [],
+    }),
 )
