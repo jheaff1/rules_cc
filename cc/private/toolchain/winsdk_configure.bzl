@@ -26,7 +26,7 @@ Platform support:
 
 Usage:
 
-    load("//src/main/res:winsdk_configure.bzl", "winsdk_configure")
+    load("//cc/private/toolchains:winsdk_configure.bzl", "winsdk_configure")
 
     winsdk_configure(name = "local_config_winsdk")
 
